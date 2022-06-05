@@ -11,7 +11,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new Second().GetPositiveNumbersInRange(1 , 11);
+            new Third().GetNumbersWithCertainSqr(20);
         }
         
     }
