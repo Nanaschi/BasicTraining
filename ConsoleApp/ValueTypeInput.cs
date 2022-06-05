@@ -16,17 +16,17 @@ namespace ConsoleApp
             Console.WriteLine("Select the Data type to validate the input you have entered.\nPress 1 for String " +
                               "Press 2 for Integer" +
                               "Press 3 for Boolean");
-            var typeOfDataInput = Console.ReadLine();
+            var typeOfDataInput = Convert.ToInt32(Console.ReadLine());
 
             switch (typeOfDataInput)
             {
-                case "1":
+                case 1:
                     StringLogic(input);
                     break;
-                case "2":
+                case 2:
                     IntLogic(input);
                     break;
-                case "3":
+                case 3:
                     BoolLogic(input);
                     break;
             }
@@ -53,7 +53,9 @@ namespace ConsoleApp
 
         private void StringLogic(string input)
         {
-            Console.WriteLine(input);
+
+            var message = input.HasOnlyLetters() ? input : "This input has not only letters";
+            Console.WriteLine(message);
             Console.ReadKey();
             Init();
         }
