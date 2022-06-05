@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp
+﻿namespace ConsoleApp.Miscelenious
 {
     public static class Extensions
     {

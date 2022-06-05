@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LinqExercises
+namespace LinqExercises.OldLinq
 {
     
     /*Write a program in C# Sharp to find the +ve numbers from a list of numbers

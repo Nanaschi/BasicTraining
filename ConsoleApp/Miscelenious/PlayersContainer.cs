@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ConsoleApp
+namespace ConsoleApp.Miscelenious
 {
     public class PlayersContainer
     {

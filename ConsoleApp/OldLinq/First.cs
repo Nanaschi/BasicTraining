@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LinqExercises
+namespace LinqExercises.OldLinq
 {
     /// <summary>
     /// 1. Write a program in C# Sharp to shows how the three parts of a query operation execute.

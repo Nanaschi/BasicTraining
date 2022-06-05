@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace LinqExercises
+namespace LinqExercises.OldLinq
 {
     public class Third
     {
