@@ -11,7 +11,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new First().GetEvenNumbers();
+            new Second().GetPositiveNumbersInRange(1 , 11);
         }
         
     }
