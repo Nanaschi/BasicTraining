@@ -1,4 +1,4 @@
-﻿using LinqExercises.OldLinq;
+﻿using ConsoleApp.Linq2;
 
 namespace ConsoleApp
 {
@@ -8,7 +8,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new Fourth().GetArrayElementsAmount();
+            new Second().GetSufficientWords(5);
         }
         
     }
