@@ -8,7 +8,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new Second().GetSufficientWords(5);
+            new Seventh().GetSpecificWord("e");
         }
         
     }
