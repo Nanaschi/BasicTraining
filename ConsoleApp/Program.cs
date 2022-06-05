@@ -10,7 +10,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new PlayersContainer();
+            new NumberManipulator().Run();
         }
         
     }

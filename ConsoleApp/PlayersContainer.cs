@@ -36,10 +36,7 @@ namespace ConsoleApp
         {
             string[] joinednames = names.Zip
                 (lastNames, (name, lastName) => $"{name} {lastName}").ToArray();
-            foreach (var VARIABLE in joinednames)
-            {
-                Console.WriteLine(VARIABLE);
-            }
+            Console.WriteLine(string.Join(", ", joinednames));
         }
     }
 }
