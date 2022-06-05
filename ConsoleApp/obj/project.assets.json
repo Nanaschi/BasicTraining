@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "LinqExercises/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/LinqExercises.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LinqExercises.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LinqExercises/1.0.0": {
+      "type": "project",
+      "path": "../LinqExercises/LinqExercises.csproj",
+      "msbuildProject": "../LinqExercises/LinqExercises.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "LinqExercises >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mi\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mi\\RiderProjects\\ConsoleApp\\LinqExercises\\LinqExercises.csproj": {
+              "projectPath": "C:\\Users\\mi\\RiderProjects\\ConsoleApp\\LinqExercises\\LinqExercises.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

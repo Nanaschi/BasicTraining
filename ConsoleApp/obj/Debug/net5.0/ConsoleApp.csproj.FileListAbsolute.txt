@@ -14,3 +14,10 @@ C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.dll
 C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
 C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
 C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\net5.0\LinqExercises.deps.json
+C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\net5.0\LinqExercises.runtimeconfig.json
+C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\net5.0\LinqExercises.runtimeconfig.dev.json
+C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\net5.0\LinqExercises.exe
+C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\net5.0\LinqExercises.dll
+C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\net5.0\LinqExercises.pdb
+C:\Users\mi\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CopyComplete

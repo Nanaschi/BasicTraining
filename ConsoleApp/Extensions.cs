@@ -16,7 +16,7 @@
         {
             foreach (var character in text)
             {
-                if (!char.IsLetter(character)) return false; break;
+                if (!char.IsLetter(character)) return false; 
             }
 
             return true;

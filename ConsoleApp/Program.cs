@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using LinqExercises;
 
 namespace ConsoleApp
 {
@@ -10,7 +11,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new ValueTypeInput();
+            new First().GetEvenNumbers();
         }
         
     }

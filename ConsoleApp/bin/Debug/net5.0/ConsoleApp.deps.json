@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "LinqExercises": "1.0.0"
+        },
         "runtime": {
           "ConsoleApp.dll": {}
+        }
+      },
+      "LinqExercises/1.0.0": {
+        "runtime": {
+          "LinqExercises.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinqExercises/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
