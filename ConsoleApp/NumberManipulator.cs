@@ -8,7 +8,7 @@ namespace ConsoleApp
         {
             foreach (var number in array)
             {
-                if (number % 2 != 0)
+                if (number.IsOdd())
                 {
                     Console.WriteLine($"Odd number is {number}");
                 }
@@ -19,7 +19,7 @@ namespace ConsoleApp
         {
             foreach (var number in array)
             {
-                if (number % 2 == 0)
+                if (number.IsEven())
                 {
                     Console.WriteLine($"Even number is {number}");
                 }
