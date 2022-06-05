@@ -10,7 +10,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new NumberManipulator().Run();
+            new ValueTypeInput();
         }
         
     }
