@@ -8,7 +8,7 @@ namespace ConsoleApp
 
         static void Main()
         {
-            new Seventh().GetSpecificWord("e");
+            new Eighth().ShuffleLogic();
         }
         
     }
