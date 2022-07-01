@@ -9,7 +9,7 @@ namespace ConsoleApp.Linq2
         [78, -9, 0, 23, 54,  21, 7, 86]  → 86 78 54 23 21*/
     
     
-    public class Fourth
+    public class OrderByDescendingTake
     {
         private int[] _numbers ={6, 0, 999, 11, 443, 6, 1, 24, 54};
 

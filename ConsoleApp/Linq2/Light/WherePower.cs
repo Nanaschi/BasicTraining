@@ -6,11 +6,11 @@ namespace ConsoleApp.Linq2
     
    // Write a query that returns list of numbers and their squares only if square is greater than 20
     
-    public class Fifth
+    public class WherePower
     {
         private int[] _numbers = {3, 9, 2, 4, 6, 5, 7};
 
-        public void GetPowerNumbers(int minimumSqrResult, int power)
+        public void TakePower(int minimumSqrResult, int power)
         {
             var enumerable = _numbers.Where(number => Math.Pow(number, power) > minimumSqrResult);
 

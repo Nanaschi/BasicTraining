@@ -8,7 +8,7 @@ namespace ConsoleApp.Linq2
         Expected input and output
     "mum", "amsterdam", "bloom" → "amsterdam"*/
     
-    public class Third
+    public class SpecificWheres
     {
         private string[] _text = {"mum", "amsterdam", "bloom", "armagedom", "deem" , "am"};
 

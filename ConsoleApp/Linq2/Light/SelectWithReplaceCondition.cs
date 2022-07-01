@@ -5,7 +5,7 @@ namespace ConsoleApp.Linq2
 {
     
     //Write a query that replaces 'ea' substring with astersik (*) in given list of words.
-    public class Sixth
+    public class SelectWithReplaceCondition
     {
         private string[] text = {"near", "speak", "tonight", "weapon", "customer", "deal", "lawyer"};
 

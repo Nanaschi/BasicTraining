@@ -5,9 +5,9 @@ namespace ConsoleApp.Linq2
 {
     //Write a query that shuffles sorted array.
     
-    public class Eighth
+    public class NewGuidRandomNext
     {
-        private int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        private int[] numbers = {38, 24, 8, 0, -1, -17, -33, -100};
 
         
         

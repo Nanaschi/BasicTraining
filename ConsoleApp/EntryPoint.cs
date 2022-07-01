@@ -1,14 +1,12 @@
-﻿using ConsoleApp.Linq2;
+﻿using ConsoleApp.Basics;
 
 namespace ConsoleApp
 {
     class Program
     {
-
-
         static void Main()
         {
-            new Eighth().ShuffleLogic();
+            new BasicsMethods(3, 0);
         }
         
     }

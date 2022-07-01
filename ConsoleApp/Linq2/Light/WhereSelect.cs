@@ -8,7 +8,7 @@ namespace ConsoleApp.Linq2
     "computer", "usb" → "COMPUTER"*/
     
     
-    public class Second
+    public class WhereSelect
     {
 
         private string[] _text = {"comp", "usb", "house", "cucumber", "ukulele", "whether"};
