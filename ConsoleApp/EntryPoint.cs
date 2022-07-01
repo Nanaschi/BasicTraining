@@ -6,7 +6,7 @@ namespace ConsoleApp
     {
         static void Main()
         {
-            new BasicsMethods(3, 0);
+            new BasicsMethods(-13, 2);
         }
         
     }

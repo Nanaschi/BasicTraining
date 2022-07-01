@@ -5,9 +5,9 @@ namespace ConsoleApp.Basics
     public class BasicsMethods
     {
 
-        public BasicsMethods(float num1, float num2)
+        public BasicsMethods(int num1, int num2 = 0, int num3 = 0)
         {
-            ElementaryOperations(num1, num2);
+            SwapTwoNumbers(num1, num2);
         }
         
         
@@ -48,7 +48,12 @@ namespace ConsoleApp.Basics
             return $"T = {fahrenheit}F";*/
         }
 
-
+        /*Given two integers, write a method that returns results of their elementary
+            arithmetic operations: addition, substraction, multiplication, division.
+            Remember that you can't divide any number by 0!
+        Expected input and output
+        ElementaryOperations(3, 8) → 11, -5, 24, 0.375*/
+        
         private void ElementaryOperations(float num1, float num2)
         {
             Console.WriteLine(num1 + num2);
@@ -59,6 +64,40 @@ namespace ConsoleApp.Basics
                 (num1 / num2).ToString();
             Console.WriteLine(divideResult);
         }
-        
+
+        /*Given two different arithmetic operations 
+            (addition, substraction, multiplication, division), 
+        write a method that checks if they return the same result.
+            Expected input and output
+        IsResultTheSame(2+2, 2*2) → true
+        IsResultTheSame(9/3, 16-1) → false*/
+        private bool IsResultTheSame(float num1,float num2)
+        {
+            return num1.Equals(num2);
+        }
+
+        /*Given three integers, write a method that returns first number 
+            divided modulo by second one and these divided modulo by third one.
+            Expected input and output
+        ModuloOperations(8, 5, 2) → 1*/
+        private int ModuloOperations(int num1, int num2, int num3)
+        {
+            return num1 % num2 % num3;
+        }
+
+        /*Given a number, write a method that returns its cube.
+            Expected input and output
+        TheCubeOf(2) → 8
+        TheCubeOf(-5.5) → -166.375*/
+        private double TheCubeOf(double baseNumber)
+        {
+            return Math.Pow(baseNumber, 3);
+        }
+
+        private void SwapTwoNumbers(int num1, int num2)
+        {
+            Console.WriteLine($"Before: a = {num1}, b = {num2};" +
+                              $" After: a = {num2}, b = {num1}");
+        }
     }
 }
