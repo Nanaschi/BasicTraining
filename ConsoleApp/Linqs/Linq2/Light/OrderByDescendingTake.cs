@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace ConsoleApp.Linq2
+namespace ConsoleApp.Linqs.Linq2.Light
 {
     
     /*Write a query that returns top 5 numbers from the list of integers in descending order.
