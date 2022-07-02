@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ConsoleApp.Loops
@@ -22,22 +23,61 @@ namespace ConsoleApp.Loops
 
         public LoopsTraining()
         {
-            Console.WriteLine(CreateMultiplicationTable());
+            CreateMultiplicationTable();
         }
         
-        private string CreateMultiplicationTable()
+        private void CreateMultiplicationTable()
         {
-            string topRow = "";
-            string leftRow = "";
-            for (int i = 1;  i <= 10; i++)
+            
+            /*for (int i = 1; i <= 10; i++)
             {
-                topRow += $"{i} ";
-                if (i == 10) continue;
-                leftRow += $"\n{i + 1}";
-            }
+                for (int j = 1; j <= 10; j++)
+                {
+                    if (i == 1)
+                    {
+                        if (i * j < 10)
+                        {
+                            Console.Write($" {i * j} ");
+                        }
+                        else
+                        {
+                            Console.Write($"{i * j} ");
+                        }
+                    }
+                    else if (i > 1 && i < 10)
+                    {
+                        if (i * j < 10)
+                        {
+                            Console.Write($" {i * j} ");
+                        }
+                        else
+                        {
+                            Console.Write($"{i * j} ");
+                        }
+                    }
+                    else
+                    {
+                        Console.Write($"{i * j} ");
+                    }
+                }
+                Console.WriteLine();*/
+            
+            
+            List<int> table = new List<int>();
 
-            var finalTable = topRow +leftRow;
-            return (string) finalTable;
+            for (int h = 1; h <= 10; h++)
+            {
+                for (int i = h, j = h;  i <= j * 10; i += j)
+                {
+                    table.Add(i);
+                }
+            }
+            
+            for (int i = 1; i <= table.Count; i++)
+            {
+                Console.Write($"{table[i - 1]} ");
+                if (i % 10 == 0) Console.WriteLine();
+            }
         }
         
     }
