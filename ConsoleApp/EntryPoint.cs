@@ -1,5 +1,6 @@
 ﻿using ConsoleApp.Basics;
 using ConsoleApp.Conditional_statements;
+using ConsoleApp.Loops;
 
 namespace ConsoleApp
 {
@@ -7,7 +8,7 @@ namespace ConsoleApp
     {
         static void Main()
         {
-            new ConditionalTrainings(new[] {74, 62, 99});
+            new LoopsTraining();
         }
         
     }

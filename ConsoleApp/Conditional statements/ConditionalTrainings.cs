@@ -7,9 +7,9 @@ namespace ConsoleApp.Conditional_statements
 {
     public class ConditionalTrainings
     {
-        internal ConditionalTrainings(object obj1 = null, object obj2 = null)
+        internal ConditionalTrainings(int obj1, object obj2 = null)
         {
-            Console.WriteLine(IfSortedAscending( (int[]) obj1)); ;
+            Console.WriteLine(IfNumberContains3(obj1)); ;
         }
         
         
@@ -56,8 +56,44 @@ namespace ConsoleApp.Conditional_statements
             var orderedEnumerable = numArray.OrderBy(number => number);
             return orderedEnumerable.ToArray().SequenceEqual(numArray);
         }
+
         
+        /*Given a number, write a method that checks if it is positive, negative or zero.
+            Expected input and output
+        PositiveNegativeOrZero(5.24) → positive
+            PositiveNegativeOrZero(0.0) → zero
+            PositiveNegativeOrZero(-994.53) → negative*/
+        private string PositiveNegativeOrZero(float number)
+        {
+            return number < 0 ? 
+                "negative": 
+                number == 0 ? 
+                    "equals zero" : 
+                    "positive";
+        }
         
+        /*Given a year as integer, write a method that checks if year is leap.
+            Expected input and output
+        IfYearIsLeap(2016) → true
+        IfYearIsLeap(2018) → false*/
+
+        private bool IfYearIsLeap(int year)
+        {
+            return year % 4 == 0;
+        }
+
+        /*Write a method that checks if given number (positive integer)
+        contains digit 3. Do not convert number to other type.
+            Do not use built-in functions like Contains(), StartsWith(), etc.
+            Expected input and output
+        IfNumberContains3(7201432) → true
+        IfNumberContains3(87501) → false*/
+        
+        private bool IfNumberContains3(int number)
+        {
+            var array = number.ToString().Select(o=> Convert.ToInt32(o) - 48 ).ToArray();
+            return array.Contains(3);
+        }
         
     }
 }
